@@ -1,6 +1,0 @@
-pandas
-numpy
-network
-pyvis
-streamlit
-math
