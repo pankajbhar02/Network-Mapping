@@ -663,10 +663,10 @@ def main():
 
     # Sidebar
     with st.sidebar:
-        st.subheader("Navigation")
+ 
         if st.session_state['page'] == 'main':
-            if st.button("Go to HCP Summary", disabled=not st.session_state['selected_hcp_npi']):
-                st.session_state['page'] = 'summary'
+           if st.button("Back to Main Page"):
+                st.session_state['page'] = 'main'
                 st.rerun()
         else:
             if st.button("Back to Main Page"):
