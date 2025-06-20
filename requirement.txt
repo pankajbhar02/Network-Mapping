@@ -1,6 +1,4 @@
-pandas
-numpy
-network
-pyvis
-streamlit
-math
+streamlit==1.38.0
+pandas==2.2.2
+networkx==3.3
+pyvis==0.3.2
